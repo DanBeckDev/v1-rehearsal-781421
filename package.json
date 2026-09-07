@@ -1,0 +1,21 @@
+{
+  "name": "v1-rehearsal-781421",
+  "version": "1.0.0",
+  "description": "Throwaway repository created solely to trial the [a11y-witness](https://github.com/DanBeckDev/a11y-witness) GitHub Action as a first-time user would.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanBeckDev/v1-rehearsal-781421.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DanBeckDev/v1-rehearsal-781421/issues"
+  },
+  "homepage": "https://github.com/DanBeckDev/v1-rehearsal-781421#readme"
+}

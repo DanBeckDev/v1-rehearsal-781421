@@ -3,10 +3,15 @@ name: a11y-witness
 on:
   pull_request:
 
+permissions:
+  pull-requests: write
+  contents: read
+
 jobs:
   a11y-witness:
     runs-on: windows-2022        # NVDA is Windows-only; the action fails fast anywhere else
     steps:
+      - uses: actions/checkout@v4
       - uses: DanBeckDev/a11y-witness@main
         with:
           url: https://github.com/DanBeckDev/a11y-witness
